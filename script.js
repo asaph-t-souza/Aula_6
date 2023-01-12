@@ -2,9 +2,9 @@ var contagem = 0;
 var saida = document.getElementById("saida");
 var imprimir = "";
 
-while(contagem < 10000){
+do{
     // alert(contagem);
     imprimir += contagem + "<br>";
     contagem += 1;
-}
+}while(contagem < -10);
 saida.innerHTML = imprimir;
