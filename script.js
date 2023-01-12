@@ -1,10 +1,8 @@
-var contagem = 0;
 var saida = document.getElementById("saida");
 var imprimir = "";
 
-while(contagem < 10000){
-    // alert(contagem);
-    imprimir += contagem + "<br>";
-    contagem += 1;
+for(var i = 0; i < 10; i++){
+    imprimir += i + "<br>";
 }
+
 saida.innerHTML = imprimir;
