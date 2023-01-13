@@ -1,10 +1,10 @@
-var contagem = 0;
 var saida = document.getElementById("saida");
 var imprimir = "";
 
-while(contagem < 10000){
-    // alert(contagem);
-    imprimir += contagem + "<br>";
-    contagem += 1;
+var semana = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado"];
+
+for(var i = 0; i < semana.length; i++){
+    imprimir += semana[i] + "<br>";
 }
+
 saida.innerHTML = imprimir;
